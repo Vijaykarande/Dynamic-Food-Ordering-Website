@@ -1,0 +1,55 @@
+.log1{
+    width: 100%;
+    aspect-ratio:4/2;
+    object-fit: contain;
+
+}
+.log2{
+   background-color: orange;
+
+}
+.quantity {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quantity button {
+    background-color:orange;
+    color: #fff;
+    border: none;
+    padding: 4px 6px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.quantity button:hover {
+    background-color: green;
+}
+
+.quantity input {
+    width: 40px;
+    text-align: center;
+    margin: 0px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+.btn-style{ background-color:orange;
+    border-radius: 5px;
+    padding:1px 10px;
+
+}
+.mb-4 {
+    margin-top: 16.5rem !important;
+}
+.mb-4, h3 {
+    font-size: calc(1.3rem + .6vw);
+}
+
+.mt-3 {
+    margin-top: 6rem !important;
+}
+

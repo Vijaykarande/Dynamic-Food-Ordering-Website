@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.subtotal {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.checkout-btn {
+    margin-top: 20px;
+}
+
+.table {
+    border: 3px solid #73AD21;
+    margin-top: 50px;
+
+}
+
+.card-shopping {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quantity button {
+    background-color:orange;
+    color: #fff;
+    border: none;
+    padding: 4px 6px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.quantity button:hover {
+    background-color: #0056b3;
+}
+
+.quantity input {
+    width: 40px;
+    text-align: center;
+    margin: 0px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.s-item{
+    height: 600px;
+}
+.s-img{
+    height: 100%;
+    object-fit: cover;
+    background: center;
+    filter: brightness(0.6);
+}

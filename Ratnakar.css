@@ -1,0 +1,52 @@
+.quantity {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quantity button {
+    background-color:orange;
+    color: #fff;
+    border: none;
+    padding: 4px 6px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.quantity button:hover {
+    background-color: green;
+}
+
+.quantity input {
+    width: 40px;
+    text-align: center;
+    margin: 0px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.add-to-cart-btn {display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    color: #fff;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    
+}
+
+.add-to-cart-btn:hover {
+    
+}
+
+.btn-style{ background-color:greenyellow;
+    border-radius: 5px;
+    padding:1px 10px;
+
+}
